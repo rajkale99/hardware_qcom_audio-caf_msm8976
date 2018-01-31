@@ -17,6 +17,8 @@ libOmxAmrEnc-def += -Wconversion
 libOmxAmrEnc-def += -DAUDIOV2
 libOmxAmrEnc-def += -Wno-sign-conversion -Wno-self-assign -Wno-format -Wno-macro-redefined
 
+libOmxAmrEnc-def += -Wno-sign-conversion -Wno-shorten-64-to-32 -Wno-self-assign -Wno-parentheses-equality -Wno-format -Wno-sign-compare -Wno-tautological-compare -Wno-shorten-64-to-32 -Wno-unused-local-typedef
+
 # ---------------------------------------------------------------------------------
 #             Make the Shared library (libOmxAmrEnc)
 # ---------------------------------------------------------------------------------
